@@ -25,7 +25,7 @@ void print_array_const(const int data[], int size)
 int main()
 {
 
-  // Get suze of an array
+  // Get size of an array
   int guesses[] = {12, 23, 34, 45, 56};
   int size = sizeof(guesses) / sizeof(guesses[0]);
 
