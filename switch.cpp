@@ -15,7 +15,7 @@ int main()
     case fall:
       break;
     case winter:
-    std::cout << "Stay warm!\n";
+      std::cout << "Stay warm!\n";
       break;
   }
 
