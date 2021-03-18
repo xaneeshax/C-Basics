@@ -19,11 +19,20 @@ int main()
   std::cout << size << std::endl;
   print_array(guesses, size);
 
-  
-
   for(int i = 0; i < size; i++)
   {
     std::cout << guesses[i] << "\t";
   }
+  
+  int grades[][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+  for (int i = 0; i < 3; i++)
+  {
+    for(int j = 0; j < 3; j++)
+    {
+      std::cout << grades[i][j] << "\t";
+    }
+    std::cout << "\n";
+  }
+  
   return 0;
 }
